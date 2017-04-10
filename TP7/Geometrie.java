@@ -89,7 +89,7 @@ class Sphere extends Forme{
 	}
 	
 	public double volume(){
-		return 4*Math.PI*(rayon*rayon);
+		return ((4/3)*Math.PI*(rayon*rayon*rayon));
 	}
 	
 }
